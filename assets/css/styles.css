@@ -87,6 +87,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 header::before {
@@ -98,12 +100,15 @@ header::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 90%;
+  filter: saturate(0);
+  opacity: 0.2;
 }
 
 .header-content {
   max-width: 700px;
   padding: 80px 20px;
   text-align: center;
+  z-index: 2;
 }
 
 .header-content img {
