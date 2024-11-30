@@ -124,7 +124,7 @@ header::before {
   color: var(--primary-color);
 }
 
-.header-content button {
+.header-content button:hover {
   border: 3px solid var(--primary-color);
   color: var(--primary-color-contrast);
 }
